@@ -115,3 +115,6 @@
 172.21.0.1 - - [24/Nov/2023:14:29:41 +0000] "GET / HTTP/1.1" 200 19039 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
 172.21.0.1 - - [24/Nov/2023:14:30:38 +0000] "GET / HTTP/1.1" 200 19039 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
 172.21.0.1 - - [24/Nov/2023:15:37:28 +0000] "GET / HTTP/1.1" 200 19039 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+172.30.0.1 - - [25/Nov/2023:03:53:59 +0000] "GET / HTTP/1.1" 200 61900 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+172.30.0.1 - - [25/Nov/2023:03:53:59 +0000] "GET /_debugbar/assets/stylesheets?v=1697098252&theme=auto HTTP/1.1" 200 242528 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
+172.30.0.1 - - [25/Nov/2023:03:53:59 +0000] "GET /_debugbar/assets/javascript?v=1697098252 HTTP/1.1" 200 304111 "http://localhost/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36"
