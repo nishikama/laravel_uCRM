@@ -10,7 +10,7 @@ const newContent = ref("");
 Inertiaテストです。<br>
 <a href="/">aタグ経由です</a><br>
 <Link href="/">Link経由です</Link><br>
-<Link :href="route('inertia.index')">名前付きルートの確認です</link><br>
+<Link :href="route('inertia.index')">名前付きルートの確認です</Link><br>
 <Link :href="route('inertia.show', { id : 50 })">ルートパラメータのテストです</Link>
 
 <div class="mb-8"></div>
