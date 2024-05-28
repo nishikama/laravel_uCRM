@@ -6,9 +6,13 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 use App\Http\Controllers\InertiaTestController;
 use App\Http\Controllers\ItemController;
+use App\Http\Controllers\CustomerController;
 
-Route::resource('items',ItemController::class)
-->middleware(['auth', 'verified']);
+Route::resource('items', ItemController::class)
+    ->middleware(['auth', 'verified']);
+
+Route::resource('customers', CustomerController::class)
+    ->middleware(['auth', 'verified']);
 
 /*
 |--------------------------------------------------------------------------
@@ -54,4 +58,4 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
